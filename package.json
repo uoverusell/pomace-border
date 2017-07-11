@@ -1,79 +1,21 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "pomace-border@file:///Users/Sams/Developer/pomace/components/border",
-        "scope": null,
-        "escapedName": "pomace-border",
-        "name": "pomace-border",
-        "rawSpec": "file:///Users/Sams/Developer/pomace/components/border",
-        "spec": "/Users/Sams/Developer/pomace/components/border",
-        "type": "directory"
-      },
-      "/Users/Sams/Developer/project/inspection"
-    ]
-  ],
-  "_from": "../../pomace/components/border",
-  "_id": "pomace-border@0.0.1",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/pomace-border",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "pomace-border@file:///Users/Sams/Developer/pomace/components/border",
-    "scope": null,
-    "escapedName": "pomace-border",
-    "name": "pomace-border",
-    "rawSpec": "file:///Users/Sams/Developer/pomace/components/border",
-    "spec": "/Users/Sams/Developer/pomace/components/border",
-    "type": "directory"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "file:../../pomace/components/border",
-  "_shasum": "c7b13adea602f67b0dec8e82231a2bed71c49bd9",
-  "_shrinkwrap": null,
-  "_spec": "pomace-border@file:///Users/Sams/Developer/pomace/components/border",
-  "_where": "/Users/Sams/Developer/project/inspection",
-  "author": {
-    "name": "chenfei"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "plugins": [
-      "transform-decorators-legacy",
-      "transform-class-properties"
-    ]
-  },
-  "dependencies": {
-    "pomace-base": "^0.1.1"
-  },
-  "description": "\"pomace component\"",
-  "devDependencies": {
-    "babel-cli": "^6.16.0",
-    "babel-plugin-transform-class-properties": "^6.11.5",
-    "babel-plugin-transform-decorators-legacy": "^1.3.4",
-    "babel-preset-es2015": "^6.14.0"
-  },
-  "keywords": [
-    "'pomace'"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
   "name": "pomace-border",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "''"
+  "version": "0.0.1",
+  "description": "old pomace border",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
   },
   "scripts": {
-    "babel": "babel lib/src --out-dir lib"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.1"
+  "repository": {
+    "type": "git",
+    "url": "git@icoice.github.com:uoverusell/pomace-border.git"
+  },
+  "keywords": [
+    "pomace-border"
+  ],
+  "author": "cf",
+  "license": "ISC"
 }
